@@ -1,0 +1,38 @@
+.menu {
+    background-color: #08c;
+    height: 4rem;
+    
+}
+
+.menu .menu-area ul {
+    padding-left: 0px;
+}
+
+.menu .menu-area ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    transition: .5s;
+    padding: 7px 10px;
+    line-height: 4rem;
+    border-radius: 5px;
+}
+
+
+.menu .menu-area ul li a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.menu .menu-area ul li a.active{
+    color: black;
+    background-color: #fff;
+}
+
+.menu .menu-area ul li{
+    display: inline-block;
+}
+
+
+

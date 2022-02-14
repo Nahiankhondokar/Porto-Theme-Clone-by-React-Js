@@ -1,0 +1,10 @@
+.top-staff-header{
+    display: flex;
+    flex-flow: row;
+}
+
+.add-staff{
+    text-align: center;
+    margin: auto;
+    display: block;
+}

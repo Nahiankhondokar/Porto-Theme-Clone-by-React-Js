@@ -1,0 +1,11 @@
+.s-category img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    
+}
+
+.s-category h3{
+    align-self: center;
+
+}

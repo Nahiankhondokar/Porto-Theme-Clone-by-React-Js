@@ -1,0 +1,195 @@
+
+/*======== Custom Css ==========*/
+
+:root{
+    --shadow-one: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+
+/*======== Blog Page ==========*/
+
+.blog-section{
+
+}
+
+.blog-section .blog-content .blog-post img{
+    width: 100%;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .date{
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .date p{
+    background-color: #08c;
+    padding:8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .date h3{
+    padding:0px;
+    color: #08c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .post-meta{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .post-meta p{
+    background-color: #ccc;
+    padding:4px 6px;
+    color: #08c;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .post-meta ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .post-meta ul li{
+    display: inline-block;
+}
+
+.blog-section .blog-content .blog-post .post-title-meta .post-meta ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.blog-section .blog-content .blog-post .post-desc{
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+
+
+
+/* ============== Related Post ============= */
+
+
+.related-post{
+    padding: 50px 0px;
+}
+
+.team-member{
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-one);
+    padding: 10px;
+}
+
+.member-social-media ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.member-social-media ul li{
+    display: inline-block;
+}
+
+.member-social-media ul li a{
+    width: 30px;
+    height: 30px;
+    color: #333;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid gray;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.member-social-media ul li a:hover{
+    color: white;
+    background-color: #3b5a9a;
+}
+
+.team-member img{
+    width: 100%;
+}
+
+
+.related-post-desc{
+    padding: 20px 0px;
+}
+
+.related-post-desc .related-post-date{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.related-post-desc .related-post-date .month{
+    color: #08c;
+    font-size: 12px;
+}
+
+.related-post-desc .related-post-date .day{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.related-post-desc .related-post-date p{
+    margin-bottom: 0px;
+    
+}
+
+.related-post-desc .related-post-title{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+
+.related-post-desc .related-post-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.related-post-desc .related-post-title p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0px;
+}
+
+.related-post-desc .related-post-title span{
+    font-size: 14px;
+    color: black;
+    
+}
+
+.section-title{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.auto{
+    display: inline-block !important;
+    width: 400px !important;
+    padding: 1px 0px !important;
+}

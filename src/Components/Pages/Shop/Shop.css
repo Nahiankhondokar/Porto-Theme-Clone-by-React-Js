@@ -1,0 +1,175 @@
+.section-title hr{
+    width: 100px;
+    margin: 20px auto;
+    color: rgb(0, 44, 65);
+    border: 1px solid ;
+}
+
+.shop-area{
+    margin: 0px 0px 20px 0px;
+}
+
+
+.product img{
+    margin-bottom: 20px;
+}
+
+.product-item .card-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-item{
+    margin-bottom: 30px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.product-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.product-item a:hover{
+    color: black;
+}
+
+.product-item .name{
+    font-weight: 700px;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.product-item .price .regular{
+    font-weight: 200px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-decoration: line-through;
+    color: #ccc;
+    display: block;
+}
+
+.product-item .price .sale{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+    color: black;
+}
+
+.product-item Button{
+    background: black;
+    border: 1px solid black;
+    transition: .2s;
+    outline: none;
+    width: 100%;
+}
+
+.product-item Button:hover{
+    background: transparent;
+    color: black;
+}
+
+.product-item img{
+    width: auto;
+    height: 260px;
+    object-fit: cover;
+}
+
+
+
+
+/* ============================ */
+
+.product-shipping{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+.product-shipping .free-shipping .icon {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.product-shipping .free-shipping .title h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.product-shipping .free-shipping .title p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 0px;
+}
+
+.product-shipping {
+    border: 1px solid #777;
+    padding: 10px 5px;
+    margin: 20px 0px;
+}
+
+.product-shipping .free-shipping {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+
+}
+
+.feature-product-title h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature-product-title hr{
+    width: 80px;
+    padding: 2px 0px;
+    color: #08c;
+}
+
+.shop-banner-img img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop-banner-img{
+    position: relative;
+    
+}
+
+.product .shop-banner-img .banner-title p{
+    margin-bottom: 0px;
+    font-size: 35px;
+    letter-spacing: 9px;
+    font-family: initial;
+}
+
+.product .shop-banner-img .banner-title h1{
+    margin-bottom: 0px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.product .shop-banner-img .banner-title button{
+    background-color: #333;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.product .shop-banner-img .banner-title{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-price{
+    font-weight: bold;
+    font-size: 20px;
+}

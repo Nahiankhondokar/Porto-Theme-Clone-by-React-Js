@@ -1,0 +1,57 @@
+:root{
+    --shadow-one: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.admin-details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+.admin-panel h4{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.admin-details .product{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: var(--shadow-one);
+    background-color: rgb(82, 206, 255);
+}
+
+.admin-details .product p{
+    margin-bottom: 0px;
+}
+.admin-details .order p{
+    margin-bottom: 0px;
+}
+.admin-details .post p{
+    margin-bottom: 0px;
+}
+.admin-details .post{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: var(--shadow-one);
+    background-color: rgb(26, 247, 63);
+}
+
+.admin-details .order{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: var(--shadow-one);
+    background-color: rgb(255, 136, 0);
+}

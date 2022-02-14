@@ -1,0 +1,20 @@
+
+
+.form-title h4{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.btn button{
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.alert-validation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

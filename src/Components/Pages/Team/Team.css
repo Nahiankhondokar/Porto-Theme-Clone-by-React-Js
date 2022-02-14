@@ -1,0 +1,62 @@
+
+/*======== Custom Css ==========*/
+
+:root{
+    --shadow-one: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+
+
+/* ============= page team ================ */
+
+.page-team-section{
+    padding-bottom: 50px;
+}
+
+.team-member{
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-one);
+    padding: 10px;
+}
+
+.member-social-media ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.member-social-media ul li{
+    display: inline-block;
+}
+
+.member-social-media ul li a{
+    width: 30px;
+    height: 30px;
+    color: #333;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid gray;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.member-social-media ul li a:hover{
+    color: white;
+    background-color: #3b5a9a;
+}
+
+.team-member img{
+    width: 100%;
+}
+
+.team-member h4{
+    font-weight: 500;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.team-member p{
+    color: #777;
+    padding-top: 0px;
+}

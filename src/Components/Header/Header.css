@@ -1,0 +1,94 @@
+.header-top{
+    background-color: #f4f4f4;
+    padding: 10px 0px;
+}
+
+.header-top .header-left ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #6c757d;
+    margin-right: 10px;
+}
+
+.header-top .header-left ul li a:hover{
+    color: #333;
+}
+
+.header-top .header-left ul li{
+    display: inline-block;
+}
+
+.header-top .header-left ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    
+}
+
+.header-top .header-right ul{
+    margin-bottom: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+
+.header-top .header-right ul li{
+    color: #6c757d;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.header-top .header-right ul li a{
+    width: 30px;
+    height: 30px;
+    color: #333;
+    border-radius: 100%;
+    border: 1px solid gray;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+
+.header-top .header-right ul li a:hover{
+    color: white;
+    background-color: #3b5a9a;
+}
+
+
+a, a:hover{
+text-decoration: none;
+}
+
+/* ========================= LOGO ========================== */
+
+.logo{
+    padding: 10px 0px 0px 0px;
+}
+
+.logo .logo-right .info ul{
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.logo .logo-right .info li{
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+.logo .logo-right .info ul li label{
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+}
+
+
+.logo .logo-right .info ul li p{
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+}
+
+
+.logo .logo-left img{
+    width: 25%;
+    line-height: 20%;
+}
+
